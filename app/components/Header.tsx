@@ -56,7 +56,6 @@ export default function Header() {
 	const isSettingsActive = location.pathname.includes("/settings");
 
 	return (
-		{/* Header Utama dengan latar coklat transparan dan efek blur */}
 		<header className="flex items-center gap-2 px-3 py-2.5 bg-[rgba(245,245,220,0.5)] backdrop-blur-md border-b border-[rgba(230,220,195,1)] sticky top-0 z-10 md:px-5 md:gap-4">
 			{/* Hamburger menu - mobile only */}
 			<Button
